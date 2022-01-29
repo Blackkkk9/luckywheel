@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 :root {
     --border-color-1: linear-gradient(
         135deg, 
@@ -32,11 +34,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Poppins, sans-serif;
 }
 
-html, body {
-    height : 100%;
+body {
+    height : 100vh;
     font-size: 26px;
+    background-image: url(./img/background-dong-hoa-roi_032848608.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 img { 
@@ -53,7 +63,7 @@ header {
     margin-top: 2rem;
     font-size: 40px;
     font-weight: 700;
-    color: red;
+    color: #ffcc01;
 }
 
 main {
@@ -112,6 +122,7 @@ main {
     border: 1px solid #000;
     font-size: 1.3rem;
     border-radius: 2.5rem;
+    margin-right: 6rem;
 }
 
 .btn-start:hover {
@@ -155,5 +166,6 @@ li {
 
 .msg {
     margin-top: 1.6rem;
-    color: red;
+    color: #ffcc01;
+    margin-right: 4rem;
 }
